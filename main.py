@@ -16,3 +16,7 @@ async def root():
 @app.get("/hello")
 async def root():
     return {"message": "bye there"}
+
+@app.get("/onemorequeryparameter")
+async def root():
+    return {"message": "here is one more"}
